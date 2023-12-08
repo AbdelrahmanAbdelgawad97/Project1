@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cars Motors</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+    <link rel="styleSheet" href="page1.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="Head">
+        <h1 id="carTittle" class="CarsMotors"><span class="title">Cars Motors</span>  <img class="imge" src="images.jfif" alt="Cars Automotive"width="50px"></h1>
+        <br>
+        <img class="car1" src="2.jpg" alt="Ferrary" width="100%" lenght="40%">
+    </header>
+
+    <nav>
+        <div class="myList">
+            <span class="li1"><a href="../Page 2/Page2.html" target="_blank">About Us &nbsp; &nbsp; &nbsp;</a></span>
+            <span class="li2"><a href="../Page 3/page3.html" target="_blank">Contact Us</a></span>
+        </div>
+    </nav>
+
+    <article>
+        
+        <fieldset class="content">
+            <legend class="leg">What is our product and services</legend>
+            <p>It is a complex machine built to convert heat from burning gas into the force that turns the road wheels. The chain of reactions which achieve that objective is set in motion by a spark , which ignites a mixture of petrol vapour and compressed air inside a momentarily sealed cylinder and causes it to burn rapidly.</p>
+        </fieldset>
+        
+        
+        <br>
+        
+        <button class="open1" onclick="cars()" type="">Click to show our cars</button> 
+        
+        <button class="open2" onclick="product()" type="">Click to show our product</button>
+        
+        <button class="reset" onclick="clear()" type="" id="reset">Click to reset</button>
+
+        <i class="fa fa-cart-shopping" cartIcone></i>
+        <button class="remo">Click To remove one item</button>
+        <span id="numInsideCart"></span>
+        <div class="cars">
+           
+            <div class="ferrary">
+                <img src="7.jpg" width="10%">
+                <p>Product Type: Ferrary <br>Product prise: $1000000 <br> Quantity:2 </p>
+                <button id="addto1" class="add">Add to Cart</button>
+            </div>
+            <br>
+            <div class="bougati">
+                <img src="8.webp" width="10%">
+                <p>Product Type: Bougati <br>Product prise: $1200000 <br> Quantity:1 </p>
+                <button id="addto2" class="add">Add to Cart</button>
+            </div>
+            <br>
+            <div class="dodge">
+                <img src="9.webp" width="10%">
+                <p>Product Type: Dodge <br>Product prise: $900000 <br> Quantity:4 </p>
+                <button id="addto3" class="add">Add to Cart</button>
+            </div>
+            <br>
+            <div class="camero">
+                <img src="10.jpg" width="10%">
+                <p>Product Type: camero <br>Product prise: $800000 <br> Quantity:6 </p>
+                <button id="addto4" class="add">Add to Cart</button>
+            </div>
+        </div>
+        
+        <br>
+        
+        <br>
+        <div class="products">
+            <div class="door">
+                <img src="11.jpg" width="10%">
+                <p>Product Type: car door <br>Product prise: $350 for one door <br> Quantity:122 </p>
+                <button id="addto1" class="add">Add to Cart</button>
+            </div>
+            <br>
+            <div class="breaks">
+                <img src="12.jfif" width="10%">
+                <p>Product Type: Breaks <br>Product prise: $1200 <br> Quantity:260 </p>
+                <button id="addto2" class="add">Add to Cart</button>
+            </div>
+            <br>
+            <div class="flashlights">
+                <img src="13.png" width="10%">
+                <p>Product Type: Flashlights <br>Product prise: $30 <br> Quantity:640 </p>
+                <button id="addto3" class="add">Add to Cart</button>
+            </div>
+            <br>
+            <div class="tires">
+                <img src="13.jpg" width="10%">
+                <p>Product Type: Tires <br>Product prise: $2500 <br> Quantity:1000 </p>
+                <button id="addto4" class="add">Add to Cart</button>
+            </div>
+        </div>
+    </article>
+    <footer class="thebottom">
+        <div class="bra">
+        <label>Our Branches</label>
+        <input list="feature" name="selector">
+            <datalist id="feature">
+                <option value="USA">
+                <option value="Egypt">
+                <option value="Saudi Arabia">
+                <option value="Qatar">        
+            </datalist>
+        </div> 
+        
+        <div class="icone">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook icone"> facebook</i>  </a>                                                  
+            <spa>&nbsp;</spa>
+            <a href="https://twitter.com/" target="_blank">    <i class="fa-brands fa-twitter itwitter"> twitter</i> </a>
+            <spa>&nbsp;</spa>
+            <a href="https://twitter.com/" target="_blank"> <i class="fa-brands fa-x-twitter xtwitter "> x-twitter</i> </a>                                                  
+            <spa></spa>
+        </div>
+        <button class="bu">
+            <a class="button" href="#carTittle" >Reach To Up</a>
+        </button>
+
+    </footer>
+    <script src="page1.js"></script>
+</body>
+</html>

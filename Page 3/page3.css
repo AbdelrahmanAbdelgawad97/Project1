@@ -1,0 +1,61 @@
+.contact{
+    background-color: gray;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+}
+
+.myList{
+    text-align: center;
+    background-color: #F4BF96;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+.fieald{
+    background-color: gray;
+    text-align: center;
+    margin-left:500px;
+    margin-right:500px;
+    margin-top: 100px;
+}
+
+.but{
+    
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    cursor:auto;
+}
+
+.bra{
+    text-align: right;
+}
+
+.icone{
+    color: blue;
+}
+
+.itwitter{
+    color:rgb(30, 48, 80);
+}
+
+.xtwitter{
+    color:rgb(30, 48, 80);
+}
+
+.bu{
+    border: none;
+    padding: 8px;
+    cursor: cell;
+    width: 100%;
+}
+
+.thebottom{
+    background-color: aqua;
+    margin-top: 200px;
+    
+}
